@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Temizlik Giresun | Profesyonel Temizlik Hizmetleri</title>
+    
+    <!-- SEO META ETİKETLERİ -->
+    <meta name="description" content="Giresun'da profesyonel temizlik hizmetleri: Ev temizliği, inşaat sonrası temizlik, ofis temizliği, cam temizliği. Deneyimli ekip, uygun fiyatlar. 0544 184 40 28">
+    <meta name="keywords" content="Giresun temizlik, Giresun temizlik şirketi, ev temizliği Giresun, inşaat temizliği, ofis temizliği, profesyonel temizlik, temizlik şirketi, cam temizliği">
+    <meta name="author" content="Aqua Temizlik Giresun">
+    
+    <!-- OPEN GRAPH / FACEBOOK -->
+    <meta property="og:title" content="Aqua Temizlik Giresun | Profesyonel Temizlik Hizmetleri">
+    <meta property="og:description" content="Giresun'da profesyonel temizlik hizmetleri: Ev, ofis, inşaat sonrası ve cam temizliği">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aquatemizlikhizmetleri.github.io/AquaTemizlik/">
+    <meta property="og:image" content="https://aquatemizlikhizmetleri.github.io/AquaTemizlik/resimler/logo.png">
+    
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aqua Temizlik Giresun">
+    <meta name="twitter:description" content="Giresun'un en profesyonel temizlik şirketi">
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="resimler/favicon.ico">
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --primary: #0288d1;
+  --primary-light: #00bcd4;
+  --primary-dark: #01579b;
+  --secondary: #ff9800;
+  --light: #f8f9fa;
+  --dark: #333333;
+  --gray: #6c757d;
+  --success: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-text span {
+  color: #ffeb3b;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-links a:hover {
+  color: #ffeb3b;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding: 180px 0 120px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--secondary);
+  color: white;
+  padding: 18px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e68900;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+}
+
+/* SERVICES SECTION */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--primary-dark);
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: var(--primary);
+}
+
+.services {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid var(--primary);
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon {
+  background-color: var(--primary-light);
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.service-content {
+  padding: 25px;
+}
+
+.service-content h3 {
+  color: var(--primary-dark);
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.service-content p {
+  color: var(--gray);
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+/* WHY CHOOSE US */
+.why-us {
+  padding: 100px 0;
+  background-color: #f1f8ff;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.feature {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature i {
+  font-size: 40px;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  margin-bottom: 15px;
+  color: var(--primary-dark);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* PROCESS SECTION */
+.process {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.step {
+  text-align: center;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.step h3 {
+  margin-bottom: 15px;
+  color: var(--primary-dark);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* CONTACT SECTION */
+.contact {
+  padding: 100px 0;
+  background-color: var(--primary-dark);
+  color: white;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+}
+
+.contact-info h3, .contact-form h3 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.contact-icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.contact-text h4 {
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-text p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact-form select {
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: var(--secondary);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.submit-btn:hover {
+  background-color: #e68900;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  z-index: 999;
+  transition: all 0.3s;
+  text-decoration: none;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+}
+
+/* FOOTER */
+footer {
+  background-color: #1a1a1a;
+  color: #aaa;
+  padding: 60px 0 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-links h4, .footer-hours h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-links a:hover {
+  color: var(--primary-light);
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  color: #888;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+  }
+  
+  .mobile-nav {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-dark);
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 999;
+  }
+  
+  .mobile-nav.active {
+    display: block;
+  }
+  
+  .mobile-nav ul {
+    list-style: none;
+  }
+  
+  .mobile-nav li {
+    margin-bottom: 15px;
+  }
+  
+  .mobile-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 150px 0 80px;
+    margin-top: 60px;
+  }
+  
+  .hero h1 {
+    font-size: 32px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .services, .why-us, .process, .contact {
+    padding: 60px 0;
+  }
+  
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+  
+  .service-card, .feature, .step {
+    padding: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/905552702828?text=Merhaba%20Aqua%20Temizlik%2C%20web%20sitenizden%20ulaşıyorum%20ve%20temizlik%20hizmeti%20almak%20istiyorum." class="whatsapp-float" target="_blank" aria-label="WhatsApp ile iletişim">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Header & Navigation -->
+<header role="banner">
+  <div class="container">
+    <nav role="navigation">
+      <div class="logo">
+        <div class="logo-icon" aria-hidden="true">
+          <i class="fas fa-spray-can"></i>
+        </div>
+        <div class="logo-text">Aqua <span>Temizlik</span></div>
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="#home" aria-label="Ana sayfaya git">Ana Sayfa</a></li>
+        <li><a href="#services" aria-label="Hizmetler bölümüne git">Hizmetler</a></li>
+        <li><a href="#why-us" aria-label="Neden biz bölümüne git">Neden Biz?</a></li>
+        <li><a href="#process" aria-label="Süreç bölümüne git">Süreç</a></li>
+        <li><a href="#contact" aria-label="İletişim bölümüne git">İletişim</a></li>
+      </ul>
+      
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Mobil menüyü aç/kapat" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    
+    <div class="mobile-nav" id="mobileNav">
+      <ul>
+        <li><a href="#home">Ana Sayfa</a></li>
+        <li><a href="#services">Hizmetler</a></li>
+        <li><a href="#why-us">Neden Biz?</a></li>
+        <li><a href="#process">Süreç</a></li>
+        <li><a href="#contact">İletişim</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="container">
+    <h1>Giresun'un En Profesyonel Temizlik Şirketi</h1>
+    <p>Ev, ofis, inşaat sonrası ve cam temizliği ihtiyaçlarınız için profesyonel çözümler sunuyoruz. Deneyimli ekibimizle hijyen garantisi.</p>
+    <a href="tel:05441844028" class="cta-button">Hemen Ara: 0544 184 40 28</a>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+  <div class="container">
+    <h2 class="section-title">Hizmetlerimiz</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="service-content">
+          <h3>Ev Temizliği</h3>
+          <p>Giresun'da düzenli ve derinlemesine ev temizliği ile yaşam alanlarınızı hijyenik ve ferah hale getiriyoruz. Daire, villa, apartman temizliği.</p>
+        </div>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <div class="service-content">
+          <h3>İnşaat Sonrası Temizlik</h3>
+          <p>Giresun'da inşaat ve tadilat sonrası toz, boya, çimento temizliği. Profesyonel ekipmanlarla eksiksiz temizlik hizmeti.</p>
+        </div>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="service-content">
+          <h3>Ofis & İş Yeri Temizliği</h3>
+          <p>Giresun'da ofis, mağaza, dükkan ve iş yerleri için günlük/haftalık düzenli temizlik hizmeti. Verimli çalışma ortamı sağlıyoruz.</p>
+        </div>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-car"></i>
+        </div>
+        <div class="service-content">
+          <h3>Cam & Cephe Temizliği</h3>
+          <p>Giresun'da bina cepheleri, camlar, pencere ve yüksek yerlerin güvenli ve etkili temizliği. Profesyonel ekipman ve ekip.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="why-us" id="why-us">
+  <div class="container">
+    <h2 class="section-title">Neden Aqua Temizlik?</h2>
+    <div class="features">
+      <div class="feature">
+        <i class="fas fa-user-check"></i>
+        <h3>Deneyimli Ekip</h3>
+        <p>Yılların tecrübesiyle, eğitimli ve güvenilir personelimizle hizmet veriyoruz.</p>
+      </div>
+      
+      <div class="feature">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Kalite Garantisi</h3>
+        <p>Profesyonel ekipman ve kaliteli temizlik malzemeleri kullanıyoruz.</p>
+      </div>
+      
+      <div class="feature">
+        <i class="fas fa-clock"></i>
+        <h3>Zamanında Teslim</h3>
+        <p>Planlanan saatte başlayıp, zamanında bitirme taahhüdümüz var.</p>
+      </div>
+      
+      <div class="feature">
+        <i class="fas fa-headset"></i>
+        <h3>7/24 Destek</h3>
+        <p>Müşteri memnuniyeti için sürekli iletişim ve destek sağlıyoruz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process Section -->
+<section class="process" id="process">
+  <div class="container">
+    <h2 class="section-title">Nasıl Çalışıyoruz?</h2>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>İletişime Geçin</h3>
+        <p>Telefon, WhatsApp veya iletişim formu üzerinden bize ulaşın.</p>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>Ücretsiz Keşif</h3>
+        <p>Temizlik alanınızı görüp detaylı teklif hazırlıyoruz.</p>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Planlama</h3>
+        <p>Temizlik tarihini ve detaylarını birlikte planlıyoruz.</p>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">4</div>
+        <h3>Temizlik & Teslim</h3>
+        <p>Profesyonel ekibimizle temizliği gerçekleştirip teslim ediyoruz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title" style="color: white;">İletişim</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Bize Ulaşın</h3>
+        
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-text">
+            <h4>Adres</h4>
+            <p>Gedik Kaya mah. 95 no sokak no 52/13 Giresun merkez</p>
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="contact-text">
+            <h4>Telefon</h4>
+            <p><a href="tel:05441844028" style="color: white; text-decoration: none;">0544 184 40 28</a></p>
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <div class="contact-text">
+            <h4>WhatsApp</h4>
+            <p><a href="https://wa.me/905552702828" style="color: white; text-decoration: none;">0555 270 28 28</a></p>
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="contact-text">
+            <h4>Çalışma Saatleri</h4>
+            <p>Pazartesi - Cumartesi: 08:00 - 20:00</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <h3>Hemen Teklif Alın</h3>
+        <form id="quoteForm" onsubmit="event.preventDefault(); sendWhatsApp();">
+          <input type="text" id="name" placeholder="Adınız Soyadınız *" required aria-label="Adınız Soyadınız">
+          <input type="tel" id="phone" placeholder="Telefon Numaranız *" required aria-label="Telefon numaranız">
+          <select id="service" required aria-label="Hizmet türü">
+            <option value="" disabled selected>Hizmet Türü Seçin *</option>
+            <option value="ev">Ev Temizliği</option>
+            <option value="insaat">İnşaat Sonrası Temizlik</option>
+            <option value="ofis">Ofis & İş Yeri Temizliği</option>
+            <option value="cam">Cam & Cephe Temizliği</option>
+            <option value="diger">Diğer</option>
+          </select>
+          <textarea id="message" placeholder="Detaylı bilgi ve adres... *" required aria-label="Mesajınız"></textarea>
+          <button type="submit" class="submit-btn">WhatsApp'tan Gönder</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-about">
+        <div class="footer-logo">Aqua Temizlik Giresun</div>
+        <p>Giresun'da profesyonel temizlik hizmetleri sunan, müşteri memnuniyetini ön planda tutan güvenilir bir şirketiz.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Hızlı Bağlantılar</h4>
+        <ul>
+          <li><a href="#home">Ana Sayfa</a></li>
+          <li><a href="#services">Hizmetlerimiz</a></li>
+          <li><a href="#why-us">Neden Biz?</a></li>
+          <li><a href="#process">Süreç</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-hours">
+        <h4>Çalışma Saatleri</h4>
+        <p>Pazartesi - Cumartesi</p>
+        <p>08:00 - 20:00</p>
+        <p>Acil durumlarda 7/24 ulaşabilirsiniz.</p>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>İletişim</h4>
+        <p><i class="fas fa-phone"></i> <a href="tel:05441844028" style="color: #aaa; text-decoration: none;">0544 184 40 28</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/905552702828" style="color: #aaa; text-decoration: none;">0555 270 28 28</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Giresun Merkez</p>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <p>&copy; 2024 Aqua Temizlik Giresun. Tüm hakları saklıdır. | Profesyonel Temizlik Hizmetleri</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Mobile Menu Toggle
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const mobileNav = document.getElementById('mobileNav');
+
+mobileMenuBtn.addEventListener('click', () => {
+  mobileNav.classList.toggle('active');
+  const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+  mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
+});
+
+// Close mobile menu when clicking a link
+const mobileLinks = mobileNav.querySelectorAll('a');
+mobileLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    mobileNav.classList.remove('active');
+    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+  });
+});
+
+// WhatsApp form submission
+function sendWhatsApp() {
+  // Get form values
+  const name = document.getElementById('name').value.trim();
+  const phone = document.getElementById('phone').value.trim();
+  const service = document.getElementById('service').value;
+  const message = document.getElementById('message').value.trim();
+  
+  // Validate required fields
+  if (!name || !phone || !service || !message) {
+    alert('Lütfen zorunlu alanları doldurunuz (* ile işaretli alanlar)');
+    return;
+  }
+  
+  // Service type mapping
+  const serviceMap = {
+    'ev': 'Ev Temizliği',
+    'insaat': 'İnşaat Sonrası Temizlik',
+    'ofis': 'Ofis & İş Yeri Temizliği',
+    'cam': 'Cam & Cephe Temizliği',
+    'diger': 'Diğer Hizmet'
+  };
+  
+  const serviceName = serviceMap[service] || service;
+  
+  // Create WhatsApp message
+  const whatsappMessage = `*Aqua Temizlik Giresun - Teklif Talebi*
+  
+*Ad Soyad:* ${name}
+*Telefon:* ${phone}
+*Hizmet Türü:* ${serviceName}
+*Mesaj:*
+${message}
+
+Bu mesaj web sitenizden gönderilmiştir.`;
+  
+  // Encode message for URL
+  const encodedMessage = encodeURIComponent(whatsappMessage);
+  
+  // Create WhatsApp URL
+  const whatsappUrl = `https://wa.me/905552702828?text=${encodedMessage}`;
+  
+  // Open WhatsApp in new tab
+  window.open(whatsappUrl, '_blank');
+  
+  // Reset form
+  document.getElementById('quoteForm').reset();
+  
+  // Show success message
+  alert('Mesajınız WhatsApp\'a yönlendiriliyor...');
+}
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    const targetId = this.getAttribute('href');
+    if(targetId === '#') return;
+    
+    const targetElement = document.querySelector(targetId);
+    if(targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - 80,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
+// Add schema.org structured data for SEO
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Aqua Temizlik Giresun",
+  "image": "https://aquatemizlikhizmetleri.github.io/AquaTemizlik/resimler/logo.png",
+  "description": "Giresun'da profesyonel temizlik hizmetleri: ev temizliği, inşaat sonrası temizlik, ofis temizliği, cam temizliği",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Gedik Kaya mah. 95 no sokak no 52/13",
+    "addressLocality": "Giresun",
+    "addressRegion": "Karadeniz",
+    "addressCountry": "TR"
+  },
+  "telephone": "+905441844028",
+  "openingHours": "Mo-Sa 08:00-20:00",
+  "url": "https://aquatemizlikhizmetleri.github.io/AquaTemizlik/",
+  "priceRange": "₺₺",
+  "serviceType": "Temizlik Hizmetleri"
+};
+
+// Add structured data to page
+const script = document.createElement('script');
+script.type = 'application/ld+json';
+script.textContent = JSON.stringify(structructuredData);
+document.head.appendChild(script);
+
+// Page load tracking
+window.addEventListener('load', () => {
+  console.log('Aqua Temizlik Giresun sitesi yüklendi');
+  // You can add Google Analytics or other tracking here
+});
+</script>
+</body>
+</html>
